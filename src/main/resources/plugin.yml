@@ -1,0 +1,20 @@
+name: GreekLongbowPlugin
+version: 1.0.0
+main: com.greeklongbow.plugin.GreekLongbowPlugin
+api-version: "1.21"
+description: The Greek Longbow (Apollo's Draw) — a legendary bow.
+
+commands:
+  greeklongbow:
+    description: Claim the Greek Longbow or manage its ownership.
+    usage: /greeklongbow | /greeklongbow owner | /greeklongbow restore
+    permission: greeklongbow.use
+
+permissions:
+  greeklongbow.use:
+    description: Allows use of /greeklongbow
+    default: true
+
+  greeklongbow.admin:
+    description: Allows use of the restore subcommand for the Greek Longbow.
+    default: op

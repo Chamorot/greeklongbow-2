@@ -1,0 +1,8 @@
+# GreekLongbowPlugin config
+# This section is written automatically when a player claims the weapon.
+# Do not edit manually unless you know what you are doing.
+
+greeklongbow:
+  claimed: false
+  owner-uuid: ""
+  owner-name: ""
